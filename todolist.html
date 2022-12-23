@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="todo-list.css">   
+    <link rel="stylesheet" href="todo-list.css">
     <title>To Do List</title>
 </head>
-<body >
-    <h1>To Do List</h1>
-    <input id="listElementCreator" type="text" placeholder="What's on your Mind..." class="list-creator">    
-    <div class="tasks-div" id="div1">               
-    </div>
-    <script src="todoList.js"></script>    
+<body>
+<h1>To Do List</h1>
+<div class="add-item-wrapper">
+    <input id="listElementCreator" type="text" placeholder="What's on your Mind..." class="list-creator">
+    <button class="add-btn" onclick="addItem()">click</button>
+</div>
+<div class="tasks-div" id="div1">
+</div>
+<script src="todoList.js"></script>
 </body>
 </html>
