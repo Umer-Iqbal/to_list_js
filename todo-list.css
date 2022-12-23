@@ -42,3 +42,22 @@ body{text-align: center;}
 .task-div > .check-box{
     float: left;
 }
+
+.add-item-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.add-btn {
+    cursor: pointer;
+    width: 70px;
+    background: blue;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px solid;
+    height: 38px;
+    margin-left: -1px;
+    border-radius: 0 5px 5px 0;
+    margin-top: -1px;
+}
